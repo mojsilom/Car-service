@@ -1,0 +1,176 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background: transparent;
+    border: 1px solid white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#contentAllCustomers{
+    display: none;
+}
+
+#contentOldForm{
+    display: none;
+}
+
+#contentNewForm{
+    display: none;
+}
+
+#contentHistoryOfVehicle{
+    display: none;
+}
+
+#contentUpdateOrDelete
+{
+    display: none;
+}
+#contentDischargeVehicle{
+    display: none;
+}
+
+#contentMyCustomers
+{
+    display: none;
+}
+#contentTakeRequest{
+    display: none;
+}
+
+#contentCompleteRequest{
+    display: none;
+}
+
+#contentOldForm:target{
+    display: block;
+}
+
+#contentNewForm:target{
+    display: block;
+}
+
+#contentAllCustomers:target{
+    display: table;
+    width: 100%;
+}
+
+.CustomersTable,.ChassisTable{
+    margin-top: 15%;
+    border-collapse: collapse;
+    text-align: center;
+    color:rgb(15,15,15);
+}
+
+.head,.ChassisHead{
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,0.30);
+}
+
+.data,.ChassisData{
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,0.30);
+}
+
+#contentHistoryOfVehicle:target{
+    display: block;
+}
+
+.chassisDiv{
+    text-align: center;
+}
+#chassisHistory{
+    margin-top: 5%;
+    width: 30%;
+}
+
+#changeDataCustomer>a{
+    text-decoration: none;
+    color:rgb(15,15,15);
+}
+#deleteCustomer>a{
+    text-decoration: none;
+    color:rgb(15,15,15);
+}
+#changeDataCustomer:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}#deleteCustomer:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+ #contentUpdateOrDelete:target{
+     display: block;
+ }
+
+
+.DivFirstnameLastnameChassis{
+    margin-top: 30px;
+    text-align: center;
+}
+.DivDataToMechanic{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#FirstnameLastnameChassis{
+     width: 50%;
+ }
+#DataToMechanic{
+    width: 50%;
+}
+.DivCustomerData{
+    position: center;
+}
+.tableCustomerData>td{
+    text-align: center;
+}
+
+#CustomerNote{
+    text-align: justify;
+    text-align-last: center;
+}
+#contentDischargeVehicle:target{
+    display: block;
+}
+
+#contentMyCustomers:target{
+    display: block;
+}
+#contentTakeRequest:target{
+    display: block;
+}
+#contentCompleteRequest:target{
+    display: block;
+}
+#price{
+    margin-top: 50px;
+    width: 50%;
+    font-size: 25px;
+}

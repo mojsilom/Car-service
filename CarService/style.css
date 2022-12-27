@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Elephant, serif;
+}
+
+.intro{
+    width: 100%;
+    height: 100%;
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+
+.formLogin{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.content{
+    width: 26vw;
+    height: 150px;
+    margin: auto;
+    border-radius: 5%;
+    display: table;
+    background: transparent;
+}
+
+.mechanicLogo{
+    display: table-cell;
+    width: 165px;
+    height: 150px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.username{
+    display: table-cell;
+    margin-left: 3.5vw;
+    margin-top: 6vh;
+    padding: 1% 1% 1% 10%;
+    background: url("images/username.jpg") no-repeat;
+    background-size: contain;
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 13.5vw;
+}
+
+.password{
+    display: table-cell;
+    margin-left: 3.5vw;
+    margin-top: 6vh;
+    padding: 1% 1% 1% 10%;
+    background: url("images/passwordIcon.png") no-repeat;
+    background-size: contain;
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 13.5vw;
+}
+.username::placeholder{
+    color:rgb(30,30,30);
+}
+.password::placeholder{
+    color:rgb(30,30,30);
+}
+.username[placeholder]
+{
+    padding-left: 20%;
+    font-size: 20px;
+}
+.password[placeholder]
+{
+    padding-left: 20%;
+    font-size: 20px;
+}
+
+.submit{
+    display: table;
+    text-align: center;
+    margin-top: 10%;
+    height: 5vh;
+    font-size: 20px;
+    font-weight: bolder;
+    background: transparent;
+    color:rgb(30,30,30);
+    border: 1px solid gray;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background: lightgray;
+}
+
+.notice{
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(128,128,128,0.4);
+    color: black;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    color:black;
+    border: 1px solid black;
+    justify-content: right;
+}
+
