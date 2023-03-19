@@ -1,0 +1,23 @@
+# ignore vendor directory and its content
+vendor/
+
+# ignore composer.lock and composer.phar
+composer.lock
+composer.phar
+
+# ignore IDE files
+.vscode/
+.idea/
+
+# ignore logs and cache files
+/var/log/
+/var/cache/
+
+# ignore user-specific files
+*.swp
+*.swo
+.DS_Store
+
+# ignore build and temporary files
+/build/
+/temp/
