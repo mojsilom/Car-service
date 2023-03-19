@@ -1,0 +1,142 @@
+*{
+    font-family: Elephant, serif;
+}
+
+body{
+    background: url("images/backgroundClerk.png") no-repeat;
+    background-size: cover;
+}
+
+.form-content{
+    text-align: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+.tableForm{
+    text-align: center;
+}
+
+.radioClass{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-label{
+    text-align: right;
+    color:white;
+}
+
+#notify{
+    text-align: left;
+}
+.center-label{
+    text-align: center;
+
+}
+
+.right-label-note{
+    text-align: right;
+    vertical-align: top;
+    color: white;
+}
+
+.submit-button,.reset-button,.delete-button,.update-button{
+    color: black;
+}
+
+.input-width{
+    text-align: left;
+}
+
+.width-form{
+    width: 100%;
+}
+
+tr {
+    height: 40px;
+}
+
+
+
+input,textarea,select,button {
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    border: none;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: rgb(128, 128, 128);
+    background: lightgray;
+    text-align: center;
+}
+.notice{
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(128,128,128,0.4);
+    color: white;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+.reset-button:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+.delete-button:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+    height: 40px;
+}
+.update-button:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.DivDisplayProblem,.DivCompleteRequest,.DivDischargeRequest{
+    margin-top: 50px;
+    text-align: center;
+}
+#displayProblem,#CompleteRequest{
+    text-align: center;
+    width: 40%;
+
+}
+.DivTake-request-button,.DivCompleteRequestButton,.DivDischargeRequestButton
+{
+    text-align: center;
+}
+.take-request-button,.complete-request,.discharge-request{
+    margin-top: 100px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.take-request-button:hover,.complete-request:hover,.discharge-request:hover
+{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+#inputComment,#clerkComment{
+    margin-top: 100px;
+    width: 50%;
+    height: 200px;
+    font-size: 26px;
+}
+.complete-request,.discharge-request{
+    width: 150px;
+}
